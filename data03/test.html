@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>色块练习</title>
+<style>
+#box1{border:5px solid #000; width: 300px;}
+#box1>div>div{width: 100px;height: 100px;}
+.top, .middle, .bottom{ height: 100px;}
+.top .r{background: red;float: left;}
+.top .y{ background: yellow;float: right;}
+.middle .o{margin: 0 auto; background: orange;}
+.bottom .b{background: blue; float: left;}
+.bottom .g{background: green; float: right;}
+
+#box2{border:5px solid #000; width: 300px; height: 300px;}
+#box2>div{width: 100px;height: 100px;float: left;}
+#box2 .r{background: red}
+#box2 .y{ background: yellow}
+#box2 .o{ background: orange;}
+#box2 .b{background: blue;}
+#box2 .g{background: green; }
+</style>
+</head>
+
+<body>
+
+<div id="box1">
+  <div class="top">
+    <div class="r"></div>
+    <div class="y"></div>
+  </div>
+  <div class="middle">
+    <div class="o"></div>
+  </div>
+  <div class="bottom">
+    <div class="b"></div>
+    <div class="g"></div>
+  </div>
+</div>
+
+<div id="box2">
+  <div class="r"></div>
+  <div></div>
+  <div class="y"></div>
+  <div></div>
+  <div class="o"></div>
+  <div></div>
+  <div class="b"></div>
+  <div></div>
+  <div class="g"></div>
+</div>
+
+</body>
+</html>

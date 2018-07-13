@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/app.css" />
+<style>
+body{padding-left:60px; padding-bottom:60px;}
+form{width:300px; overflow:hidden;}
+label{display:block; padding:10px 0; width:350px;}
+span{text-align: right; padding-right: 18px; width:82px; display:inline-block;}
+input[type=text],input[type=password]{width:200px;}
+input[type=checkbox]{vertical-align:middle;}
+select{width:200px;}
+textarea{vertical-align:top; width:200px;}
+form p{float:right;}
+div{margin-top:20px;}
+.class{width:400px; height:100px;margin:0; border:3px solid #ccc; line-height: 100px;}
+#id{padding:20px; margin:20px; width:300px; height:100px; background:#f00;}
+.green{color:green;}
+.red{color:red;}
+#box ul{list-style:none;}
+#box ul li{color:blue;}
+#box .cur{color:red;}
+a:link{color:pink;}
+a:visited{color:green;}
+a:hover{color:red;}
+a:active{color:white;}
+
+</style>
+</head>
+
+<body>
+<form>
+	<label><span>用户名：</span><input type="text" value="阿里阿里" placeholder="请输入用户名"/></label>
+    <label><span>密码：</span><input type="password" placeholder="请输入密码"/></label>
+    <label>
+    	<span>城市：</span>
+        <select>
+        	<option>--无--</option>
+            <option>上海上海上海上海</option>
+            <option selected="selected">上海上海</option>
+            <option>上海上海上海上海</option>
+            <option>上海上海上海上海</option>
+        </select>
+    </label>
+    <label>
+    	<span>性别：</span>
+        <input type="radio" name="sex" value="1" />男
+        <input type="radio" name="sex" value="2" />女
+        <input type="radio" name="sex" checked="checked" value="0"/>保密
+    </label>
+    <label>
+    	<span>兴趣：</span>
+        <input type="checkbox" />吃
+        <input type="checkbox" />喝
+        <input type="checkbox" />玩
+    </label>
+    <label>
+    	<span>备注：</span>
+        <textarea placeholder="随便写点什么呗">内猴啊</textarea>
+    </label>
+    <p>
+    	<input type="submit" />
+    	<input type="reset" />
+    	<input type="button" value="我没啥用"/>
+	</p>
+</form>
+
+<div id="id">
+	斯柯达记录卡丹江口撒娇的凯撒斯柯达记录卡丹江口撒娇的凯撒奖奖
+</div>
+<p class="class">
+	斯柯达记录卡丹江口撒娇的凯撒奖
+</p>
+
+<ul>
+	<li class="red">1</li>
+    <li class="green">2</li>
+    <li class="red">3</li>
+    <li class="green">4</li>
+    <li class="red">5</li>
+    <li class="green">6</li>
+</ul>
+<div id="box">
+	<ul>
+    	<li>1</li>
+        <li>2</li>
+        <li class="cur">3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    <ul>
+</div>
+<a href="#">颜色颜色颜色颜色颜色颜色颜色颜色颜色颜色</a>
+</body>
+</html>
