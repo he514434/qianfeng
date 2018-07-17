@@ -1,0 +1,28 @@
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none;}
+li{list-style: none;}
+.wrap-header{height: 110px; background: url(images/bg_head.png) repeat-x;}
+.header{width: 1000px; height: 110px;margin: 0 auto; overflow: hidden;}
+.logo{float: left;padding-top: 40px;}
+.header-r{float: right; padding-top: 16px;}
+.tips{color: #fff;font:12px/24px "";}
+.tips span{ margin: 0 2px;}
+.tips a{ color: #fff;}
+.search{margin-top: 10px;}
+.search input[type="text"]{float: left;padding-left: 5px; width: 218px; height: 31px;line-height: 31px;}
+.search input[type="button"]{float: left;border: 0px;width: 30px; height: 31px; background: url(images/search.png) no-repeat center #000;}
+.wrap-nav{height: 48px; background: url(images/bg2.png) repeat-x;}
+.nav{width: 1000px; margin: 0 auto;}
+.nav li{float: left; width: 165px; border-right: 1px solid #7d0708; text-align: center; color: #fff; line-height: 48px;}
+.nav li:last-child{border-right: 0px;}
+.banner img{width: 100%;}
+.news{width: 940px; height: 38px; line-height: 38px; border: 1px solid #ccc;margin: 0 auto; padding: 0 25px;}
+.news strong{float: left;}
+.news p{float: left;}
+.news i{float: left;}
+.news span{float: right;}
+
+
+.footer{height: 160px; background: #960f10; text-align: center; color: #fff}
+.footer>div{ overflow: hidden; padding-top: 20px;}
+.footer a{color: #fff;}
