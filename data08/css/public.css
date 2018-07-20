@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}
+.valign i{vertical-align:middle;display:inline-block;height:100%;}

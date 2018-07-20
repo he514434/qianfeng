@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>图片整合测试</title>
+<style>
+
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none;}
+li{list-style:none;}
+ul.po li{width:100px;height:100px;border:1px solid #000;float:left;margin-left:5px;background:url(images/position.png) no-repeat;}
+ul.po li.li1{background-position: 0 0;}
+ul.po li.li0{background-position: 0 -300px;}
+ul.po li.li3{background-position: -200px 0;}
+ul.po li.li8{background-position:-100px -200px;}
+ul.po li.li7{background-position:0 -200px;}
+ul.po li.li9{background-position:-200px -200px;}
+ul.po li.li5{background-position:-100px -100px;}
+ul.po li.li2{background-position:-100px 0;}
+
+.nav li{float: left;}
+.nav a{width:62px; height: 22px; display: block; text-align: center; line-height: 22px; background: url(images/bg.gif) no-repeat}
+.nav .a1:hover{background-position: 0 -22px;}
+.nav .a2{background-position: -62px 0;}
+.nav .a2:hover{background-position: -62px -22px;}
+.nav .a3{background-position: -124px 0;}
+.nav .a3:hover{background-position: -124px -22px;}
+.nav .a4{background-position: -186px 0;}
+.nav .a4:hover{background-position: -186px -22px;}
+</style>
+</head>
+<body>
+
+
+<ul class="po"></ul>
+	<li class="li1"></li>
+	<li class="li8"></li>
+	<li class="li5"></li>
+	<li class="li0"></li>
+	<li class="li2"></li>
+	<li class="li1"></li>
+	<li class="li1"></li>
+	<li class="li3"></li>
+	<li class="li0"></li>
+	<li class="li3"></li>
+	<li class="li5"></li>
+</ul>
+
+<div class="nav">
+  <ul>
+    <li><a href="#" class="a1">文案</a></li>
+    <li><a href="#" class="a2">文案</a></li>
+    <li><a href="#" class="a3">文案</a></li>
+    <li><a href="#" class="a4">文案</a></li>
+  </ul>
+</div>
+
+
+
+</body>
+</html>
