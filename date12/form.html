@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>智能表单案例</title>
+<link href="css/public.css" rel="stylesheet" type="text/css">
+<style>
+*{margin:0px; padding: 0px;}
+input{border-radius: 5px;}
+.form{width:400px;padding:20px;background:green;margin:0 auto;}
+.form h3{font:16px/36px "";color:#000;}
+.form li{overflow:hidden;font:14px/28px "";border:1px solid #fff;padding:10px;margin-bottom:5px;background:yellow;}
+.form li span{float:left;width:120px;}
+.form li p input{float:left;width:200px;height:28px;border:0;padding:0 5px; border-radius: 3px;}
+.form li p textarea{resize:none;float:left;width:200px;height:100px;border:0;padding:5px;}
+.form li.te span{display:block;}
+.form li.te p{clear: left;}
+.form li.te p input{float:none;width:auto;height:auto;margin:0 10px}
+input[type="submit"]{width: 100px; height: 40px; line-height: 40px; color: #fff; background: #000;border: 0px;	border-radius: 15px;margin: 10px auto; cursor: pointer;display: block;}
+</style>
+</head>
+<body>
+
+<section class="form">
+<h3>大幅亏损的就放开了手机克里斯</h3>
+<ul>
+	<li>
+    	<span>Name:</span>
+        <p><input type="text" placeholder="First and last name" /></p>
+    </li>
+	<li>
+    	<span>Email:</span>
+        <p><input type="email" placeholder="exampel@domain.com" /></p>
+    </li>
+	<li>
+    	<span>Phone:</span>
+        <p><input type="tel" placeholder="EG. +237482374832879" /></p>
+    </li>
+</ul>
+<h3>大幅降低开发了的就流口水</h3>
+<ul>
+	<li>
+    	<span>Address:</span>
+        <p><textarea></textarea></p>
+    </li>
+	<li>
+    	<span>Post code:</span>
+        <p><input type="text" /></p>
+    </li>
+	<li>
+    	<span>Country:</span>
+        <p><input type="text" /></p>
+    </li>
+</ul>
+<h3>第三方技术开发加快速度</h3>
+<ul>
+	<li class="te">
+    	<span>Name:</span>
+        <p>
+        	<input type="radio" name="card" checked /> VISA
+            <input type="radio" name="card" /> AMEX
+            <input type="radio" name="card" /> MASTERCARD
+        </p>
+    </li>
+	<li>
+    	<span>Card number:</span>
+        <p><input type="number" /></p>
+    </li>
+	<li>
+    	<span>XXXX code:</span>
+        <p><input type="number" /></p>
+    </li>
+	<li>
+    	<span>Nuber on card:</span>
+        <p><input type="text" placeholder="SDJKSDJKSDJSKDJK" /></p>
+    </li>
+</ul>
+<input type="submit" name="" value="BUY IT!">
+</section>
+
+
+</body>
+</html>

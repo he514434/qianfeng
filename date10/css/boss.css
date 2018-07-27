@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.margin{width:1170px;margin:0 auto;}
+
+.head{height:100px;}
+.head .logo{float:left;margin-top:26px;}
+.head ul{}
+.head ul li{float:left;font:16px/100px "";margin:0 40px;}
+.head ul li a{display:block;color:#333333;}
+.head ul li a:hover{color:#53cac3;}
+.head .head-r{float:right;}
+.head .head-r img{vertical-align:middle;}
+.head .head-r a{font:14px/100px "";color:#000;margin-left:9px;}
+.head .head-r span{margin:0 15px;font:18px/100px "";color:#e5e5e5;}
+
+
+.banner{height:398px;background:url(../images/banner.png);text-align:center;}
+.banner h2{font:38px/138px "";color:#fff;padding-top:55px;}
+.banner span{display:block;width:187px;height:44px;margin:0 auto;background:#53cac3;font:20px/44px "";}
+
+
+.main{background:#f3f3f3;padding-bottom:30px;}
+.main .margin{height:700px;background:#fff;margin-top:-68px;}
+.main .top{height:436px;}
+.main .top ul{}
+.main .top ul li{float:left;background:url(../images/shugang.jpg) no-repeat right;height:436px;padding:0 51px;width:284px;}
+.main .top ul li.last{background:none;}
+.main .top ul li h3{overflow:hidden;font:17px/100px "";background:url(../images/biao.jpg) no-repeat left;text-indent:8px;height:103px;}
+.main .top ul li h3 span{float:left;color:#333333;}
+.main .top ul li h3 a{display:block;width:50px;height:20px;font:14px/20px "";float:right;color:#666;border:1px solid #bebebe;margin-top:41px;text-align:center;}
+.main .top ul li img{display:block;width:285px;height:156px;}
+.main .top ul li p{height:63px;fint:14px/32px "";margin-top:32px;}
+.main .top ul li .view{display:block;width:58px;height:14px;font:14px/14px "";margin-top:15px;color:#cfcfcf;}
+.main .top ul li h3 a:hover{border:1px solid #53cac3;background:#53cac3;}
+.main .top ul li .view:hover{color:#53cac3;}
+
+
+
+
+
+

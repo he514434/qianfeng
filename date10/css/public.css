@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+/*文本溢出隐藏出现省略号*/
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+/* 图片水平垂直居中 */
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}
+.valign:after{content:"";vertical-align:middle;display:inline-block;height:100%;}
+
+/*万能清除法*/
+.clear{zoom:1;/*一条解决ie疑难杂症(浮动)的神奇属性*/}
+.clear:after{content:"";clear:both;display:block;}
+.clear:before{content:"";display:table;}/*解决第一个块元素margin-top向上传递问题*/

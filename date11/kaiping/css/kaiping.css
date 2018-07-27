@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.margin{width:990px;margin:0 auto;}
+
+.head{height:70px;background:#363f48;}
+.head .logo{float:left;margin-top:7px;}
+.head span{color:#131d26;margin-left:18px;font:42px/70px "";}
+.head .xuexiao{font:22px/70px "";color:#66aa00;margin-left:9px;}
+.head .xiabiao{}
+.head .head-r{float:right;width:428px;height:32px;}
