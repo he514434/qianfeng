@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    *{margin: 0px; padding: 0px;}
+    body{padding: 40px;}
+    div{width: 100px;height: 100px; background-image: -moz-linear-gradient(top, red, blue); position: relative; transition: 1s; margin: 10px}
+    div span{width: 50px; height: 50px; position: absolute; top: 0px; left: 0px;}
+    div span:nth-child(1){background: red;}
+    div span:nth-child(2){background: yellow; opacity: 0; transition: 1s;}
+    div:hover span:nth-child(2){opacity: 1;}
+    .d1:hover{transform: translate(50px, 50px);}
+    .d2:hover{transform:rotate(360deg);}
+    .d3:hover{transform:scale(1.5,1.5)}
+    .d4:hover{transform:skew(40deg,0deg)}
+    .d5:hover{transform:matrix(1.2,1,0,1,10,10)}
+    .d5:hover{transform:scale3d(1.5,1.5);}
+    .shew{font:16px/32px "";text-align:center;overflow:hidden; position: fixed; right: 0px; top: 0px;width: auto; height: auto;}
+    .shew p{transform:skew(90deg,0);}
+    .shew p:nth-child(1){transition:.5s;}
+    .shew p:nth-child(2){transition:.5s .25s;}
+    .shew p:nth-child(3){transition:.5s .5s;}
+    .shew p:nth-child(4){transition:.5s .75s;}
+    .shew p:nth-child(5){transition:.5s 1s;}
+    .shew p:nth-child(6){transition:.5s 1.25s;}
+    .shew p:nth-child(7){transition:.5s 1.5s;}
+    .shew:hover p{transform:skew(0deg,0);}
+  </style>
+</head>
+<body>
+<div>
+  <span></span>
+  <span></span>
+  <p></p>
+  <p></p>
+</div>
+<div class="d1"></div>
+<div class="d2"></div>
+<div class="d3"></div>
+<div class="d4"></div>
+<div class="d5"></div>
+<div class="d6"></div>
+<div class="shew">
+	<p>千锋4少</p>
+  <p>灭发师太</p>
+  <p>光头强</p>
+  <p>难看的瓜瓜</p>
+  <p>头发是土黄色</p>
+  <p>找个牙医男朋友</p>
+  <p>我马上去南京</p>
+</div>
+</body>
+</html>
