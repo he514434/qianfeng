@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td,figure{margin:0;padding:0;}
+body{font:12px  "微软雅黑"; word-wrap:break-word;}
+a,u,s,del{color:#666;text-decoration:none;}
+fieldset ,a img,.bor0 {border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+li{list-style:none;}
+img{vertical-align:middle;}
+table{border-collapse:collapse;}
+.ind2{text-indent:2em;}
+input,textarea{outline:none;}
+textarea{resize:none;}/*禁止拖动*/
+
+.header-wrap{height: 55px; background: #282828;}
+.header{width: 1200px; margin: 0 auto;}
+.header .logo{float: left; margin-right: 20px;}
+.header .logo img{padding-top: 10px;}
+.header li{float: left; line-height: 55px; margin-right: 30px; }
+.header a{color: #fff;}
+.header span{float: right; line-height: 55px;}
+
+.banner{background: url(../images/i_02.jpg) center no-repeat; height: 620px; width: 100%}
+
+.cons-wrap{height: 128px; background: #f6f6f6;}
+.cons{width: 1200px; margin: 0 auto;}
+.cons li{float: left; width: 33%; text-align: center; padding-top: 40px;}
+.cons li p{font:14px/24px "";}
+.cons li p strong{font-size: 24px;}
+
+.content{width: 1200px;margin: 0 auto; background: #fff; height: 660px; padding-top: 20px; overflow: hidden;}
+.content h3{font:26px/120px ""; text-align: center;}
+.content ul{overflow: hidden;}
+.content li{float: left; width:396px; height: 234px; border:1px solid #fff;}
+.content li div{width:396px; height: 234px; background: url(../images/list.png); position: absolute; opacity: 1; transition: 1s}
+.content li p{width:396px; height: 234px; background: red; position: absolute; color: #fff; opacity: 0; transition: 1s}
+.content li:hover div{opacity: 0;}
+.content li:hover p{opacity: 1;}
+
+.fri-wrap{height: 490px; background: #f6f6f6;}
+.fri{width: 1200px;margin: 0 auto; padding-top: 20px;}
+.fri h3{font:26px/120px ""; text-align: center;}
+.fri li{width: 20%;float: left; text-align: center; height: 80px; vertical-align: middle;}
+.fri li:after{content: ""; display: inline-block; height: 100%}

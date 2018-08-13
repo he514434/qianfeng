@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{font-size:13.3333vw;}/* 100/设计图的百分之一（vw） */
+html,body{height:100%;}
+body{background:#fbfcfd;display:flex;flex-direction:column;}
+
+header{height:.86rem;background:#252525;position:relative;display:flex;justify-content:center;align-items:center;}
+header .hl{width: 1.31rem;height: 0.36rem;position:absolute;top:0;bottom:0;margin:auto;left:.2rem;}
+header .hl img{width: 100%;}
+header .hr{font-size:.42rem;height:.42rem;color:#fff;position:absolute;top:0;bottom:0;margin:auto;right:.27rem;}
+header .hr2{font-size:.42rem;height:.42rem;color:#fff;position:absolute;top:0;bottom:0;margin:auto;right:1rem;}
+
+header .search{width:3.9rem;height:.6rem;border:0;border-radius:.3rem;
+background:#383838 url(../images/bg1.png) no-repeat center;background-size:1.74rem .36rem;text-indent:.3rem;font-size:.26rem;}
+header .search:focus{background-image:none;}
+
+
+nav{height:.70rem;border-bottom:.01rem solid #dfdfe0;background:#f8f8f9;padding:0 0.2rem;display:flex;justify-content:space-between;}
+nav a{font:.28rem/.76rem "";color:#3d3d3e;padding:0 .12rem;}
+nav a.zhende{color:#d43c33;border-bottom:.04rem solid #d43c33;}
+
+main{flex:1;overflow:auto;background:#fff;}
+
+#banner{position:relative;}
+#banner img{width:100%;}
+#banner>a{line-height: 0.65rem;text-align: center; width: 100%; display: block; background: #fff; color:#666; font-size: .24rem; border-bottom: 0.12rem solid #efefef;}
+
+#fm{height:2.07rem;border-bottom:.01rem solid #e2e3e4;display:flex;justify-content:space-around;}
+#fm a{margin-top:.34rem;}
+#fm a i{width:.96rem;height:.96rem;border:.02rem solid #d33a31;border-radius:50%;display:block;background:no-repeat center;background-size:.48rem .46rem;}
+#fm a i.i1{background-image:url(../images/icon-1.png);}
+#fm a i.i2{background-image:url(../images/icon-2.png);}
+#fm a i.i3{background-image:url(../images/icon-3.png);}
+#fm a span{display:block;font:.22rem/.5rem "";text-align:center;color:#333;}
+
+main .title{position:relative;font:.32rem/.92rem "";text-indent:.21rem;color:#333;margin-top:.1rem;}
+main .title span{position: absolute;right: .1rem; color: #f06000; font-size: 0.26rem;}
+main .title span i{font-size: 0.26rem; margin-right: .14rem;}
+main .title:before{content:"";position:absolute;width:.04rem;height:.32rem;background:#d43c33;left:0;top:0;bottom:0;margin:auto;}
+main .title:after{content:"";position:absolute;width:.2rem;height:.2rem;top:.04rem;bottom:0;margin:auto;border-top:.03rem solid #333;border-right:.03rem solid #333;transform:rotate(45deg);margin-left:.16rem;}
+
+main .list{display:flex;justify-content:space-between;flex-wrap:wrap; border-bottom: 0.12rem solid #efefef;}
+main .list li{width:3.65rem;}
+main .list li a{display:block;position:relative;}
+main .list li a img{display:block;width:100%;height:2.06rem;}
+main .list li a h3{font:.3rem/2 ""; color: #333; text-indent: .08rem;}
+main .list li a p{font:.26rem/.32rem "";color:#333;margin-top:.13rem;height:.64rem;overflow:hidden; text-indent: .08rem;}
+main .list li a span{position:absolute;top:1.6rem;right:.05rem;color:#fff;font:.22rem/.4rem ""; background: rgb(0,0,0,.5); border-radius: 0.05rem;padding: 0 0.05rem;}
+main .list li a span.te{position:absolute;top:0.05rem;right:.05rem;color:#fff;font:.22rem/.4rem ""; background: #1ebbc3; border-radius: 0.05rem;padding: 0 0.10rem;}
+main .list li a span i{display:inline-block;vertical-align:middle;width:.2rem;height:.2rem;background:url(../images/gg.png);background-size:.2rem .2rem;}
+
+footer{height:.98rem;background:#f4e4e4;display:flex;justify-content:space-around;}
+footer a{margin-top:.1rem;color:#949494;}
+footer a i{position:relative;display:block;text-align:center;font-size:.46rem !important;}
+footer a i s{position:absolute;right:.14rem;top:-.14rem;height:.36rem;padding:0 .11rem;background:#d43c33;color:#fff;font:.18rem/2 "";border:.04rem solid #444;border-radius:.22rem;transform:translateX(100%);}
+footer a span{display:block;font:.2rem/.32rem ""; text-align: center;}
+footer a.active{color:#f06000;}

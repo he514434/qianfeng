@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    *{margin: 0px; padding: 0px;}
+    body{padding: 40px;}
+    div{width: 100px;height: 100px; background-image: -moz-linear-gradient(top, red, blue); position: relative; transition: 1s; margin: 10px}
+    div span{width: 50px; height: 50px; position: absolute; top: 0px; left: 0px;}
+    div span:nth-child(1){background: red;}
+    div span:nth-child(2){background: yellow; opacity: 0; transition: 1s;}
+    div:hover span:nth-child(2){opacity: 1;}
+    .d1:hover{transform: translate(50px, 50px);}
+    .d2:hover{transform:rotate(360deg);}
+    .d3:hover{transform:scale(1.5,1.5)}
+    .d4:hover{transform:skew(40deg,0deg)}
+    .d5:hover{transform:matrix(1.2,1,0,1,10,10)}
+    .d5:hover{transform:scale3d(1.5,1.5);}
+    .shew{font:16px/32px "";text-align:center;overflow:hidden; position: fixed; right: 0px; top: 0px;width: auto; height: auto;}
+    .shew p{transform:skew(90deg,0);}
+    .shew p:nth-child(1){transition:.5s;}
+    .shew p:nth-child(2){transition:.5s .25s;}
+    .shew p:nth-child(3){transition:.5s .5s;}
+    .shew p:nth-child(4){transition:.5s .75s;}
+    .shew p:nth-child(5){transition:.5s 1s;}
+    .shew p:nth-child(6){transition:.5s 1.25s;}
+    .shew p:nth-child(7){transition:.5s 1.5s;}
+    .shew:hover p{transform:skew(0deg,0);}
+
+    .ye{width:500px;height:280px;margin:200px auto;box-shadow:0 0 5px #000;position:relative;overflow:hidden; background: red;position: fixed; top: 0px; left: 300px;}
+    .ye img{width:100%;height:100%;}
+    .ye p{width:10%;height:100%;position:absolute;background:#fff;transition:.5s;}
+    .ye p:nth-child(odd){transform:translate(0,-90%)}
+    .ye p:nth-child(2n){transform:translate(0,90%)}
+    .ye p:nth-child(1){left:0px;}
+    .ye p:nth-child(2){left:50px;}
+    .ye p:nth-child(3){left:100px;}
+    .ye p:nth-child(4){left:150px;}
+    .ye p:nth-child(5){left:200px;}
+    .ye p:nth-child(6){left:250px;}
+    .ye p:nth-child(7){left:300px;}
+    .ye p:nth-child(8){left:350px;}
+    .ye p:nth-child(9){left:400px;}
+    .ye p:nth-child(10){left:450px;}
+    .ye:hover p:nth-child(odd){transform:translate(0,0);}
+    .ye:hover p:nth-child(2n){transform:translate(0,0);}
+  </style>
+</head>
+<body>
+<div>
+  <span></span>
+  <span></span>
+  <p></p>
+  <p></p>
+</div>
+<div class="d1"></div>
+<div class="d2"></div>
+<div class="d3"></div>
+<div class="d4"></div>
+<div class="d5"></div>
+<div class="d6"></div>
+<div class="shew">
+	<p>地价款手机打开</p>
+  <p>地价款手机打开</p>
+  <p>地价款手机打开</p>
+  <p>地价款手机打开</p>
+  <p>地价款手机打开</p>
+  <p>地价款手机打开</p>
+  <p>地价款手机打开</p>
+</div>
+<div class="ye">
+	<p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+</div>
+</body>
+</html>

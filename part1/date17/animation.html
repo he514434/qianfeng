@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+*{margin:0;padding:0;}
+div{width:600px;height:600px;margin:100px auto;box-shadow:0 0 5px #000;position:relative;}
+div p{width:100px;height:100px;background:#0f0;position:absolute;
+animation:maozi 1s linear infinite ;}
+
+div p:hover{animation-play-state:paused;}
+@keyframes maozi{
+	0%{left:0;top:0;}
+	25%{left:500px;top:0;}
+	50%{left:500px;top:500px;}
+	75%{left:0;top:500px;}
+	100%{left:0;top:0;}
+}
+
+</style>
+</head>
+<body>
+
+<div>
+	<p></p>
+</div>
+
+
+
+
+</body>
+</html>

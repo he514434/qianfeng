@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>3D立方体</title>
+<style>
+*{margin:0;padding:0;}
+
+div{transition:4s;transform-style:preserve-3d;/*3d视角*/}
+dl{width:200px;height:200px;margin:200px auto;position:relative;
+transform:rotateX(45deg) rotateY(45deg);
+transform-style:preserve-3d;/*3d视角*/}
+dl dd{width:200px;height:200px;position:absolute;opacity:0;transition:.5s;}
+dl dd.left{background:#f99;opacity:.5;transform:translateX(-100px) rotateY(90deg);}
+dl dd.right{background:#99f;opacity:.5;transform:translateX(100px) rotateY(90deg);}
+dl dd.top{background:#9f9;opacity:.5;transform:translateY(-100px) rotateX(90deg);}
+dl dd.bottom{background:#f9f;opacity:.5;transform:translateY(100px) rotateX(90deg);}
+dl dd.before{background:#ff9;opacity:.5;transform:translateZ(100px);}
+dl dd.after{background:#9ff;opacity:.5;transform:translateZ(-100px);}
+dl dt{width:100px;height:100px;position:absolute;background:rgba(0,0,0,.5);left:0;right:0;bottom:0;top:0;margin:auto;}
+/* dl dt.sleft{transform:,                        (-50px) rotateY(90deg);} */
+dl dt.sright{transform:translateX(50px) rotateY(90deg);}
+dl dt.stop{transform:translateY(-50px) rotateX(90deg);}
+dl dt.sbottom{transform:translateY(50px) rotateX(90deg);}
+dl dt.sbefore{transform:translateZ(50px);}
+dl dt.safter{transform:translateZ(-50px);}
+div:hover{transform:rotateY(360deg);}
+
+div:active dl dd.left{transform:translateX(-200px) rotateY(90deg);}
+div:active dl dd.right{transform:translateX(200px) rotateY(90deg);}
+div:active dl dd.top{transform:translateY(-200px) rotateX(90deg);}
+div:active dl dd.bottom{transform:translateY(200px) rotateX(90deg);}
+div:active dl dd.before{transform:translateZ(200px);}
+div:active dl dd.after{transform:translateZ(-200px);}
+
+
+
+</style>
+</head>
+<body>
+<div>
+	<dl>
+    	<dt class="sleft"></dt>
+        <dt class="sright"></dt>
+        <dt class="stop"></dt>
+        <dt class="sbottom"></dt>
+        <dt class="sbefore"></dt>
+        <dt class="safter"></dt>
+
+		<dd class="left"></dd>
+        <dd class="right"></dd>
+        <dd class="top"></dd>
+        <dd class="bottom"></dd>
+        <dd class="before"></dd>
+        <dd class="after"></dd>
+
+    </dl>
+</div>
+
+
+</body>
+</html>
